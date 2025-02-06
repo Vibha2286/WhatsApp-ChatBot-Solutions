@@ -65,3 +65,7 @@ app.post("/webhook", (request, response) => {
         }
     }
 });
+
+app.get("/",(request, response) => {
+  response.status(200).send("Hello this is webhook setup")
+})
