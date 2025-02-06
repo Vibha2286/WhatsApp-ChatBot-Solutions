@@ -4,6 +4,7 @@
   "description": "chatbot solution in nodejs and webhook - WhatApp cloud API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vibha ChatBot Solution",
@@ -13,5 +14,10 @@
     "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7"
   }
 }
