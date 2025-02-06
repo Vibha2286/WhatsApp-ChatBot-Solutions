@@ -1,0 +1,17 @@
+{
+  "name": "webhook-in-nodejs",
+  "version": "1.0.0",
+  "description": "chatbot solution in nodejs and webhook - WhatApp cloud API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vibha ChatBot Solution",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
