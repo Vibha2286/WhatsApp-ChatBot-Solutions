@@ -4,9 +4,9 @@
   "description": "chatbot solution in nodejs and webhook - WhatApp cloud API",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "build": "babel src -d lib"
-  }, 
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "Vibha ChatBot Solution",
   "license": "ISC",
   "dependencies": {
